@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    min-height: 100vh;
+}
+
+#app{
+    /* border:1px solid red; */
+    text-align: center;
+    padding: 10px;
+}
+
+button{
+    background-color: rgb(14, 199, 245);
+    color: #fff;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    /* margin:px; */
+}
+
+button:hover{
+    background-color: rgb(92, 214, 245);
+}
+
+.container{
+    min-height: 90vh;
+    border:1px solid #ccc;
+    display: grid;
+   
+    gap: 0;
+}
+
+.cell{
+    border:1px solid #ccc;
+
+}
